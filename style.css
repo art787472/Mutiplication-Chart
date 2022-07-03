@@ -1,0 +1,103 @@
+.wrapper {
+  width: 1280px;
+  max-width: 1280px;
+  height: 1370;
+  background: #f0f0f0 0% 0% no-repeat padding-box;
+  margin: 0 auto;
+
+  padding: 80px 85px;
+}
+
+.card-container {
+  width: 1110px;
+  height: 1178px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.card {
+  /* Layout Properties */
+
+  top: 80px;
+  left: 465px;
+  width: 350px;
+  height: 366px;
+
+  /* UI Properties */
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 10px #d8d8d8;
+  border-radius: 100px 0px 30px 0px;
+  opacity: 1;
+
+  display: flex;
+}
+
+.decoration-line {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.line {
+  top: 97px;
+  left: 120px;
+  width: 280px;
+  height: 0px;
+
+  border: 1px solid #2eb738;
+  opacity: 1;
+}
+
+.decoration-line span {
+  top: 80px;
+  left: 421px;
+  width: 14px;
+  height: 28px;
+
+  text-align: left;
+  font: normal normal normal 24px/24px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #2eb738;
+  opacity: 1;
+}
+
+.title-card {
+  width: 350px;
+  height: 366px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-card h1 {
+  width: 280px;
+  height: 78px;
+
+  text-align: center;
+  font: normal normal medium 56px/84px PingFang TC;
+  font-size: 56px;
+  letter-spacing: 0px;
+  color: #2eb738;
+  opacity: 1;
+  margin: 0;
+}
+
+.title-card h2 {
+  width: 278px;
+  height: 28px;
+
+  text-align: center;
+  font: normal normal normal 24px/36px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #2eb738;
+  opacity: 1;
+  margin: 0;
+}
